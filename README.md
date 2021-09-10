@@ -25,12 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./images/screenshot.png)
+![Desktop Preview](./images/screenshot.png)
+![Mobile Preview](./images/screenshot-mobile.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solutions on Frontendmentor.io](https://your-solution-url.com)
+- Live Site URL: [Live Site Preivew](https://irvan124.github.io/front-mentorio-order-summary-component/)
 
 ## My process
 
@@ -45,7 +46,7 @@ Users should be able to:
 I've learn about many things, such as :
 
 - Make my own card component ✔️
-- Styling with css ✔️
+- Styling with scss ✔️
 - Create a component based on the UI Design ✔️
 
 ### Useful resources
