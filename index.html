@@ -19,34 +19,39 @@
   </head>
   <body>
     <div class="card">
-      <img
-        class="img-card"
-        src="images/illustration-hero.svg"
-        alt="ilustration"
-      />
-      <div class="card-content">
-        <div class="card-header">
+      <div class="card__img-container">
+        <img
+          src="images/illustration-hero.svg"
+          alt="A Person listening to music"
+        />
+      </div>
+      <div class="card__content">
+        <div class="title">
           <h2>Order Summary</h2>
         </div>
-        <div class="card-desc">
+        <div class="desc">
           <p>
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
         </div>
-        <div class="card-plan">
-          <div class="plan-container">
-            <img src="images/icon-music.svg" alt="music-icon" />
-            <div style="margin-left: 20px">
-              <h4>Annual Plan</h4>
-              <p>$59.99/year</p>
+        <div class="plan-box">
+          <div class="plan-box-left">
+            <img src="images/icon-music.svg" alt="" />
+            <div class="plan-details">
+              <h3 class="plan-title">Annual Plan</h3>
+              <p class="plan-price">$59.99/year</p>
             </div>
           </div>
-          <a href="#">Change</a>
+          <div class="plan-box-right">
+            <a href="#">Change</a>
+          </div>
         </div>
-        <div class="card-btn-container">
-          <a href="#" type="button" class="btn-proceed">Proceed to Payment</a>
-          <a href="#" class="btn-cancel">Cancel Order</a>
+        <div class="button-container">
+          <button href="#" type="button" class="btn payment-btn">
+            Proceed to Payment
+          </button>
+          <button href="#" class="btn cancel-btn">Cancel Order</button>
         </div>
       </div>
     </div>
@@ -55,7 +60,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Irvan M</a>.
+      >. Coded by <a href="#">irvan124</a>.
     </div>
   </body>
 </html>
